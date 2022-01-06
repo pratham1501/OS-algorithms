@@ -8,7 +8,7 @@ struct process_struct
   int at;
   int bt;
   int ct,wt,tat,rt,start_time;
-}ps[100];
+}ps[100]; // array of structure to store info of each process.
 
 int findmax(int a, int b)
 {
